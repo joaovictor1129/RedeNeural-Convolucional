@@ -25,29 +25,3 @@ Certifique-se de ter os seguintes pré-requisitos instalados:
 Instale as bibliotecas necessárias usando:
 ```bash
 pip install tensorflow numpy scipy matplotlib
-
-## Uso
-
-## Clone o Repositório:
-git clone [url-do-repositorio]
-cd [diretorio-do-repositorio]
-
-## Prepare os Dados:
-Coloque seu conjunto de dados no diretório chest_xray seguindo a estrutura:
-
-chest_xray/
-├── train/
-├── test/
-└── val/
-Execute o Script:
-Execute o script Python fornecido para treinar e avaliar os modelos.
-
-Avaliação do Modelo:
-Após o treinamento, o script fornecerá as métricas de acurácia e perda para o modelo CNN personalizado e o modelo baseado no InceptionV3.
-
-Visualize as Previsões:
-O script exibirá imagens de raios-X de amostra com a respectiva probabilidade de pneumonia.
-
-Contribuindo
-Contribuições para este projeto são bem-vindas. Faça um fork do repositório e envie um pull request com suas alterações propostas.
-
